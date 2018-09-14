@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoCliente.ClienteServices.Dtos
 {
-   public class GetAllClientesOutput
+    public class GetAllClientesOutput
     {
         public List<GetCliente> Clientes { get; set; }
     }

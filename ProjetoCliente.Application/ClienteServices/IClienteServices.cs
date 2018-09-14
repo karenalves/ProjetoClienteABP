@@ -1,4 +1,5 @@
-﻿using ProjetoCliente.ClienteServices.Dtos;
+﻿using Abp.Application.Services;
+using ProjetoCliente.ClienteServices.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoCliente.ClienteServices
 {
-    public interface IClienteServices
+    public interface IClienteServices : IApplicationService
     {
         Task<IdCliente> CreateCliente(CreateClienteInput input);
 

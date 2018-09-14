@@ -12,6 +12,6 @@ namespace ProjetoCliente.Entities.TelefoneEntity.Manager
         Task<Telefone> UpdateTelefone(Telefone telefone);
         Task DeleteTelefone(long id);
         Task<Telefone> GetByIdTelefone(long id);
-        Task<List<Telefone>> GetAllTelefone();
+        Task<List<Telefone>> GetTelefoneCliente(long idCliente);
     }
 }

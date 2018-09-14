@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.AutoMapper;
+using AutoMapper;
 using ProjetoCliente.ClienteServices.Dtos;
+using ProjetoCliente.Entities.ClienteEntity;
 using ProjetoCliente.Entities.ClienteEntity.Manager;
 
 namespace ProjetoCliente.ClienteServices
@@ -15,29 +18,39 @@ namespace ProjetoCliente.ClienteServices
         {
             this._clienteManager = clienteManager;
         }
-        public Task<IdCliente> CreateCliente(CreateClienteInput input)
+        public async Task<IdCliente> CreateCliente(CreateClienteInput input)
         {
-            throw new NotImplementedException();
+            var cliente = input.MapTo<Cliente>();
+
+            var idClienteCriado = await _clienteManager.CreateCliente(cliente);
+
+            return new IdCliente
+            {
+                Id = idClienteCriado
+            };
         }
 
-        public Task DeleteCliente(long id)
+        public async Task DeleteCliente(long id)
         {
-            throw new NotImplementedException();
+            await _clienteManager.DeleteCliente(id);
         }
 
-        public Task<GetAllClientesOutput> GetAllCliente()
+        public async Task<GetAllClientesOutput> GetAllCliente()
         {
-            throw new NotImplementedException();
+            return new GetAllClientesOutput {
+                Clientes = Mapper.Map<List<GetCliente>>(await _clienteManager.GetAllCliente())
+            };
         }
 
-        public Task<GetCliente> GetByIdCliente(long id)
+        public async Task<GetCliente> GetByIdCliente(long id)
         {
-            throw new NotImplementedException();
+            return  Mapper.Map<GetCliente>(await _clienteManager.GetByIdCliente(id));
         }
 
-        public Task<GetCliente> UpdateCliente(GetCliente input)
+        public async Task<GetCliente> UpdateCliente(GetCliente input)
         {
-            throw new NotImplementedException();
+            var cliente = input.MapTo<Cliente>();
+            return Mapper.Map<GetCliente>(await _clienteManager.UpdateCliente(cliente));
         }
     }
 }

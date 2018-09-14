@@ -26,9 +26,9 @@ namespace ProjetoCliente.Entities.TelefoneEntity.Manager
              await _telefoneRepository.DeleteAsync(id);
         }
 
-        public async Task<List<Telefone>> GetAllTelefone()
+        public async Task<List<Telefone>> GetTelefoneCliente(long id)
         {
-            return await _telefoneRepository.GetAllListAsync();
+            return await _telefoneRepository.GetAllListAsync(x=> x.ClienteId == id);
         }
 
         public async Task<Telefone> GetByIdTelefone(long id)
