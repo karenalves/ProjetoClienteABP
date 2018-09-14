@@ -1,0 +1,23 @@
+DEBUG 2018-09-14 09:33:43,673 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-14 09:33:43,688 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-09-14 09:33:43,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:43,721 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-09-14 09:33:44,115 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-14 09:33:47,153 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-14 09:33:47,239 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-14 09:33:47,247 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-14 09:33:47,288 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-14 09:33:47,580 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2018-09-14 09:33:56,865 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-14 09:33:56,898 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
