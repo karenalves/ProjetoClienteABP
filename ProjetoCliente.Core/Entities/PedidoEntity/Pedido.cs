@@ -21,7 +21,7 @@ namespace ProjetoCliente.Entities.PedidoEntity
             this.CreationTime = DateTime.Now;
         }
 
-        public Pedido(int tel, string nomeProd, int prazoEnt)
+        public Pedido(string nomeProd, int prazoEnt)
         {
             this.CreationTime = DateTime.Now;
             this.NomeProduto = nomeProd;

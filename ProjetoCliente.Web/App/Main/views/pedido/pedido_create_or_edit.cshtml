@@ -1,0 +1,41 @@
+﻿<form id="frm_edit_pedido" name="pedidoEditForm" novalidate>
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="vm.cancel()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">
+            <span>Pedido</span>
+        </h4>
+    </div>
+    <div class="modal-body">
+        <div class="row clearfix">
+            <div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="productname" class="form-label">Nome</label>
+                    <div class="form-line">
+                        <input id="NomeProduto" type="text" name="NomeProduto" ng-model="vm.pedido.NomeProduto" required maxlength="32" minlength="2" class="validate form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="value" class="form-label">Prazo de Entrega (Dias)</label>
+                    <div class="form-line">
+                        <input id="PrazoEntrega" type="number" name="PrazoEntrega" ng-model="vm.pedido.PrazoEntrega" required maxlength="50" minlength="1" class="validate form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" ng-click="vm.cancel()">
+            @L("Cancel")
+        </button>
+        <button type="submit" class="btn btn-primary waves-effect" ng-click="vm.save()" ng-disabled="pedidoEditForm.$invalid">
+            @L("Save")
+        </button>
+    </div>
+</form>
+

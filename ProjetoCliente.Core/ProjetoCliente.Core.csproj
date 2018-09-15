@@ -179,7 +179,9 @@
     <Compile Include="Entities\ClienteEntity\Cliente.cs" />
     <Compile Include="Entities\ClienteEntity\Manager\ClienteManager.cs" />
     <Compile Include="Entities\ClienteEntity\Manager\IClienteManager.cs" />
-    <Compile Include="Entities\ClienteEntity\Manager\Product.cs" />
+    <Compile Include="Entities\ClientePedidoEntity\ClientePedido.cs" />
+    <Compile Include="Entities\ClientePedidoEntity\Manager\ClientePedidoManager.cs" />
+    <Compile Include="Entities\ClientePedidoEntity\Manager\IClientePedidoManager.cs" />
     <Compile Include="Entities\DocumentoEntity\Documento.cs" />
     <Compile Include="Entities\DocumentoEntity\Manager\DocumentoManager.cs" />
     <Compile Include="Entities\DocumentoEntity\Manager\IDocumentoManager.cs" />
