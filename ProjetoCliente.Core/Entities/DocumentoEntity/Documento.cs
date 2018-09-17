@@ -1,10 +1,5 @@
 ﻿using Abp.Domain.Entities.Auditing;
-using ProjetoCliente.Entities.ClienteEntity;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetoCliente.Entities.DocumentoEntity
 {

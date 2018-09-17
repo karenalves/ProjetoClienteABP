@@ -1,0 +1,55 @@
+﻿<div class="row clearfix" ng-controller="app.views.cliente.cliente_index as vm">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card main-content">
+            <div class="header">
+                <h2>
+                    Clientes
+                </h2>
+            </div>
+            <div class="body table-responsive">
+                <!-- ******************************************************** -->
+                <table class="table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Status</th>
+                            <th>Tipo de Doc.</th>
+                            <th>Nº Doc.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="cliente in vm.clientes">
+                            <td class="td--1">{{cliente.name}}</td>
+                            <td class="td--2">{{cliente.status}}</td>
+                            <td class="td--2">{{cliente.documento.tipoDocumento}} </td>
+                            <td class="td--2">{{cliente.documento.numeroDocumento}} </td>
+
+                            <td class="td--4">
+                                <div class="pull-right">
+                                    <button class="btn bg-primary text-white overdue"
+                                            ng-click="vm.edit(cliente)">
+                                        <span class="fa fa-edit text-white">&nbsp;</span>@L("Edit")
+                                    </button>
+                                    <button class="btn bg-secondary text-white overdue"
+                                            ng-click="vm.delete(cliente)">
+                                        <span class="fa fa-trash text-white">&nbsp;</span>@L("Delete")
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- ******************************************************** -->
+                <div class="col-lg-12">
+                    <div class="pull-right">
+                        <button class="btn bg-primary text-white overdue"
+                                ng-click="vm.create()">
+                            <span class="fa fa-plus text-white">&nbsp;</span>@L("New")
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

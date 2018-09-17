@@ -720,3 +720,708 @@ WARN  2018-09-17 10:44:43,308 [8    ] naries.DictionaryBasedLocalizationSource -
 WARN  2018-09-17 10:44:43,309 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
 WARN  2018-09-17 10:45:12,061 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
 WARN  2018-09-17 10:45:12,061 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 14:24:36,933 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 14:24:37,021 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 14:24:37,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:37,042 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 14:24:37,853 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:24:42,234 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 14:24:42,354 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 14:24:42,372 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 14:24:42,472 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 14:24:42,742 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 14:24:42,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 14:24:43,194 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 14:24:43,195 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 14:24:43,196 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 14:24:43,197 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 14:24:54,701 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:24:54,703 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:24:54,745 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 14:24:54,784 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 14:25:24,636 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:25:24,636 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:25:24,636 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:25:52,416 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:25:52,416 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:25:55,943 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:25:55,943 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:25:55,943 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 14:39:14,775 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 14:39:14,802 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 14:39:14,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:14,822 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 14:39:15,203 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:39:18,582 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 14:39:18,670 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 14:39:18,684 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 14:39:18,736 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 14:39:18,980 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 14:39:19,073 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 14:39:19,350 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 14:39:19,351 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 14:39:19,352 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 14:39:19,353 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 14:39:25,839 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:39:25,842 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:39:25,917 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 14:39:25,957 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 14:39:39,855 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:39:39,855 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:39:39,855 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:39:48,058 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:39:48,058 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:21,298 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:21,298 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:24,800 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:24,800 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:24,800 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:26,860 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:26,861 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:54,911 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:54,911 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:57,311 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:57,312 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:57,312 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:59,693 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:41:59,693 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 14:55:45,412 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 14:55:46,651 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 14:55:46,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:46,665 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 14:55:51,750 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:55:52,913 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 14:55:52,990 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 14:55:53,011 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 14:55:53,112 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 14:55:54,182 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 14:55:55,081 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 14:55:55,818 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 14:55:55,819 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 14:55:55,820 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 14:55:55,821 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+DEBUG 2018-09-17 14:56:41,654 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 14:56:42,123 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 14:56:42,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:42,142 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 14:56:43,101 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 14:56:43,484 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 14:56:43,560 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 14:56:43,570 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 14:56:43,574 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 14:56:43,982 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 14:56:44,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 14:56:44,915 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 14:56:44,917 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 14:56:44,918 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 14:56:44,919 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 14:56:54,385 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:56:54,386 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:56:54,502 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 14:56:54,580 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 14:57:06,629 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:57:06,629 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:57:06,629 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:57:36,098 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:57:36,098 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:02,201 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:02,201 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:04,326 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:04,326 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:04,326 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:13,566 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:13,566 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:21,968 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:21,969 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:22,673 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:22,673 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:22,673 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:24,661 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 14:58:24,661 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 15:00:21,148 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 15:00:21,684 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 15:00:21,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:21,700 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 15:00:23,001 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:00:23,529 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 15:00:23,621 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 15:00:23,633 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 15:00:23,688 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 15:00:24,392 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 15:00:24,670 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 15:00:25,124 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 15:00:25,125 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 15:00:25,127 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 15:00:25,129 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 15:00:38,766 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:00:38,767 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:00:38,803 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:00:38,848 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:00:41,648 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:00:41,648 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:00:41,648 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:00:46,420 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:00:46,420 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 15:02:43,073 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 15:02:43,487 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 15:02:43,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:43,502 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 15:02:44,289 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:02:44,696 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 15:02:44,771 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 15:02:44,788 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 15:02:44,793 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 15:02:45,181 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 15:02:45,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 15:02:45,802 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 15:02:45,804 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 15:02:45,805 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 15:02:45,808 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 15:02:55,208 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:02:55,209 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:02:55,274 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:02:55,322 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:02:57,228 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:02:57,228 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:02:57,228 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:03:13,370 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:03:13,370 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 15:03:57,130 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 15:03:57,608 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 15:03:57,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,617 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,617 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,617 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,617 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,617 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,618 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,618 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,618 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,618 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:57,622 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 15:03:58,529 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:03:58,967 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 15:03:59,069 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 15:03:59,087 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 15:03:59,090 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 15:03:59,635 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 15:03:59,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 15:04:00,443 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 15:04:00,445 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 15:04:00,447 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 15:04:00,449 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 15:04:11,624 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:04:11,627 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:04:11,691 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:04:11,791 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:04:14,646 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:04:14,646 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:04:14,646 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:04:22,344 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:04:22,344 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:10:05,883 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:10:05,883 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:10:07,821 [32   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:10:07,821 [32   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:10:07,821 [32   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:10:09,379 [32   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:10:09,379 [32   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:10,942 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:10,942 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:12,880 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:12,880 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:12,880 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:14,608 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:14,608 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:37,196 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:37,196 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:39,178 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:39,178 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:39,178 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:42,072 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:12:42,072 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:17:59,136 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:17:59,137 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:01,741 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:01,741 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:01,741 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:03,664 [45   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:03,664 [45   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:20,227 [49   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:20,228 [49   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:22,897 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:22,897 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:22,897 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:24,280 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:24,280 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:58,510 [54   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:18:58,511 [54   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:19:00,733 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:19:00,733 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:19:00,733 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:19:02,232 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:19:02,232 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:20:52,217 [54   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:20:52,217 [54   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:20:52,844 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:20:52,844 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:20:52,844 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:20:54,690 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:20:54,690 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 15:23:07,236 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 15:23:07,751 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 15:23:07,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,767 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:07,777 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 15:23:08,625 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:23:09,005 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 15:23:09,063 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 15:23:09,077 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 15:23:09,081 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 15:23:09,360 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 15:23:09,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 15:23:09,811 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 15:23:09,813 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 15:23:09,814 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 15:23:09,815 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 15:23:21,842 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:23:21,843 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:23:21,908 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:23:21,938 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:23:31,829 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:23:31,829 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:23:31,829 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:23:50,649 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:23:50,649 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 15:26:32,571 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 15:26:33,123 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 15:26:33,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:33,137 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 15:26:34,388 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 15:26:34,879 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 15:26:34,980 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 15:26:34,996 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 15:26:35,040 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 15:26:35,669 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 15:26:35,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 15:26:36,428 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 15:26:36,431 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 15:26:36,434 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 15:26:36,436 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 15:26:56,909 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:26:56,916 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:26:57,002 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:26:57,065 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 15:27:03,255 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:27:03,255 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:27:03,255 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:27:08,861 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:27:08,861 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:28,958 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:28,959 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:30,895 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:30,895 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:30,895 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:32,442 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:32,443 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:51,861 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:51,861 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:53,566 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:53,567 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:53,567 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:55,467 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:28:55,467 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:29:36,581 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:29:36,581 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:29:37,296 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:29:37,297 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 15:29:37,297 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 16:01:31,993 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 16:01:32,025 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 16:01:32,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:32,038 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 16:01:32,546 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:01:36,104 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 16:01:36,214 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 16:01:36,225 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 16:01:36,349 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 16:01:36,547 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 16:01:36,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 16:01:36,922 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 16:01:36,923 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 16:01:36,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 16:01:36,925 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 16:01:46,533 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:01:46,536 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:01:46,578 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 16:01:46,611 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 16:02:00,429 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:02:00,429 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:02:00,429 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 16:55:53,145 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 16:55:53,207 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 16:55:53,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:53,243 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 16:55:54,775 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 16:55:59,505 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 16:55:59,612 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 16:55:59,621 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 16:55:59,653 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 16:55:59,856 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 16:55:59,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 16:56:00,362 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 16:56:00,365 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 16:56:00,367 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 16:56:00,368 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 16:56:22,030 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:56:22,030 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:56:22,078 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 16:56:22,107 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 16:56:30,226 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:56:30,226 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:56:30,226 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:58:55,575 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 16:58:55,575 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 17:01:13,374 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 17:01:14,024 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 17:01:14,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:14,041 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 17:01:15,027 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:01:15,406 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 17:01:15,473 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 17:01:15,489 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 17:01:15,493 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 17:01:15,861 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 17:01:16,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 17:01:16,676 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 17:01:16,677 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 17:01:16,679 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 17:01:16,680 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 17:01:25,136 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:01:25,137 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:01:25,320 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 17:01:25,389 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 17:01:31,306 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:01:31,306 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:01:31,306 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:02:00,206 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:02:00,206 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:02:32,515 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:02:32,515 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:02:34,760 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:02:34,760 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:02:34,760 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:02:39,844 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:02:39,844 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:03:48,090 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:03:48,090 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:03:50,327 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:03:50,328 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:03:50,328 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:04:04,670 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:04:04,670 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:04:29,702 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:04:29,702 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:04:30,448 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:04:30,448 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:04:30,448 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:04:40,410 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:04:40,410 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 17:16:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 17:16:29,294 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 17:16:29,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:29,307 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 17:16:30,046 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:16:35,400 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 17:16:35,774 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 17:16:35,792 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 17:16:35,837 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 17:16:36,221 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 17:16:36,318 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 17:16:36,703 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 17:16:36,705 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 17:16:36,707 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 17:16:36,709 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 17:16:49,560 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:16:49,562 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:16:49,659 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 17:16:49,744 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 17:17:01,350 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:17:01,350 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:17:01,350 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+ERROR 2018-09-17 17:17:18,716 [5    ] nHandling.AbpApiExceptionFilterAttribute - An error occurred while preparing the command definition. See the inner exception for details.
+System.Data.Entity.Core.EntityCommandCompilationException: An error occurred while preparing the command definition. See the inner exception for details. ---> System.ApplicationException: FK Constriant not found for association 'ProjetoCliente.EntityFramework.Cliente_Documento' - must directly specify foreign keys on model to be able to apply this filter
+   em EntityFramework.DynamicFilters.DynamicFilterQueryVisitorCSpace.Visit(DbPropertyExpression expression)
+   em System.Data.Entity.Core.Common.CommandTrees.DbPropertyExpression.Accept[TResultType](DbExpressionVisitor`1 visitor)
+   em System.Data.Entity.Core.Common.CommandTrees.DefaultExpressionVisitor.VisitExpression(DbExpression expression)
+   em System.Data.Entity.Core.Common.CommandTrees.DefaultExpressionVisitor.VisitList[TElement](IList`1 list, Func`2 map)
+   em System.Data.Entity.Core.Common.CommandTrees.DefaultExpressionVisitor.VisitExpressionList(IList`1 list)
+   em System.Data.Entity.Core.Common.CommandTrees.DefaultExpressionVisitor.Visit(DbNewInstanceExpression expression)
+   em EntityFramework.DynamicFilters.DynamicFilterQueryVisitorCSpace.Visit(DbNewInstanceExpression expression)
+   em System.Data.Entity.Core.Common.CommandTrees.DbNewInstanceExpression.Accept[TResultType](DbExpressionVisitor`1 visitor)
+   em System.Data.Entity.Core.Common.CommandTrees.DefaultExpressionVisitor.VisitExpression(DbExpression expression)
+   em System.Data.Entity.Core.Common.CommandTrees.DefaultExpressionVisitor.Visit(DbProjectExpression expression)
+   em EntityFramework.DynamicFilters.DynamicFilterQueryVisitorCSpace.Visit(DbProjectExpression expression)
+   em System.Data.Entity.Core.Common.CommandTrees.DbProjectExpression.Accept[TResultType](DbExpressionVisitor`1 visitor)
+   em EntityFramework.DynamicFilters.DynamicFilterInterceptor.TreeCreated(DbCommandTreeInterceptionContext interceptionContext)
+   em System.Data.Entity.Infrastructure.Interception.DbCommandTreeDispatcher.<Created>b__0(IDbCommandTreeInterceptor i, DbCommandTreeInterceptionContext c)
+   em System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](TResult result, TInterceptionContext interceptionContext, Action`2 intercept)
+   em System.Data.Entity.Infrastructure.Interception.DbCommandTreeDispatcher.Created(DbCommandTree commandTree, DbInterceptionContext interceptionContext)
+   em System.Data.Entity.Core.Common.DbProviderServices.CreateCommandDefinition(DbCommandTree commandTree, DbInterceptionContext interceptionContext)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.CreateCommandDefinition(ObjectContext context, DbQueryCommandTree tree)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.CreateCommandDefinition(ObjectContext context, DbQueryCommandTree tree)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   em System.Data.Entity.Core.Objects.EntitySqlQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em ProjetoCliente.Entities.ClienteEntity.Manager.ClienteManager.<GetAllCliente>b__4_0() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Core\Entities\ClienteEntity\Manager\ClienteManager.cs:linha 31
+   em System.Threading.Tasks.Task`1.InnerInvoke()
+   em System.Threading.Tasks.Task.Execute()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.Entities.ClienteEntity.Manager.ClienteManager.<GetAllCliente>d__4.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Core\Entities\ClienteEntity\Manager\ClienteManager.cs:linha 31
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.ClienteServices.ClienteAppService.<GetAllCliente>d__4.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 41
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+WARN  2018-09-17 17:17:39,726 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:17:39,726 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:17:41,076 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:17:41,076 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:17:41,076 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-17 17:42:35,508 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-17 17:42:35,542 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-17 17:42:35,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:35,557 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-17 17:42:36,043 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-17 17:42:39,839 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-17 17:42:39,932 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-17 17:42:39,940 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-17 17:42:39,975 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-17 17:42:40,201 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-17 17:42:40,352 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-17 17:42:40,650 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-17 17:42:40,651 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-17 17:42:40,652 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-17 17:42:40,653 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-17 17:42:49,853 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:42:49,855 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:42:49,925 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 17:42:50,009 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-17 17:43:29,340 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:43:29,340 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:43:29,340 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:46:39,819 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:46:39,820 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:46:47,009 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:46:47,009 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-17 17:46:47,009 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!

@@ -197,6 +197,10 @@
     <Compile Include="Migrations\201809141432044_add_inicial.Designer.cs">
       <DependentUpon>201809141432044_add_inicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809172023170_alter_cliente.cs" />
+    <Compile Include="Migrations\201809172023170_alter_cliente.Designer.cs">
+      <DependentUpon>201809172023170_alter_cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ProjetoClienteDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -214,6 +218,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809141432044_add_inicial.resx">
       <DependentUpon>201809141432044_add_inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809172023170_alter_cliente.resx">
+      <DependentUpon>201809172023170_alter_cliente.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

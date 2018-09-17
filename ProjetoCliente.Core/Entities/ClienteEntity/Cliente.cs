@@ -1,4 +1,5 @@
 ﻿using Abp.Domain.Entities.Auditing;
+using JetBrains.Annotations;
 using ProjetoCliente.Entities.DocumentoEntity;
 using ProjetoCliente.Entities.PedidoEntity;
 using ProjetoCliente.Entities.TelefoneEntity;
@@ -17,8 +18,8 @@ namespace ProjetoCliente.Entities.ClienteEntity
 
         [DefaultValue("Ativo")]
         public string Status { get; set; }
-
-        public int DocumentoId { get; set; }
+       
+        public long DocumentoId { get; set; }
         public Documento Documento { get; set; }
 
         public List<Telefone> Telefones { get; set; }

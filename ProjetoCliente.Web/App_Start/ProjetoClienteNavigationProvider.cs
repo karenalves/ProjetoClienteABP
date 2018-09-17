@@ -35,6 +35,13 @@ namespace ProjetoCliente.Web
                         url: "#/pedido",
                         icon: "fa fa-info"
                         )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Cliente",
+                        new LocalizableString("Cliente", ProjetoClienteConsts.LocalizationSourceName),
+                        url: "#/cliente",
+                        icon: "fa fa-info"
+                        )
                 );
         }
     }

@@ -1,0 +1,83 @@
+﻿<form id="frm_edit_cliente" name="clienteEditForm" novalidate>
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="vm.cancel()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">
+            <span>Cliente</span>
+        </h4>
+    </div>
+    <div class="modal-body">
+        <div class="row clearfix">
+            <div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="name" class="form-label">Nome</label>
+                    <div class="form-line">
+                        <input id="Name" type="text" name="Name" ng-model="vm.cliente.name" required maxlength="32" minlength="2" class="validate form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="value" class="form-label">Status</label>
+                    <div class="form-line">
+                        <input type="radio" name="status" ng-model="vm.cliente.status" value="ativo" ng-checked="true">Ativo
+                        <input type="radio" name="status"ng-model="vm.cliente.status" value="inativo">Inativo
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row clearfix">
+            <div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="name" class="form-label">Tipo de Documento</label>
+                    <div class="form-line">
+                        <select ng-model="vm.cliente.documento.tipoDocumento">
+                            <option value="">Selecione um Tipo de Documento</option>
+                            <option value="RG">RG</option>
+                            <option value="CPF">CPF</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            @*<div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="value" class="form-label">Nº Documento</label>
+                    <div class="form-line">
+                        <input id="NumeroDocumento" type="number" name="NumeroDocumento" ng-model="vm.cliente.documento.numeroDocumento" required maxlength="11" minlength="2" class="validate form-control">
+                    </div>
+                </div>
+            </div>*@
+        </div>
+        <br />
+        <!--<div class="row clearfix">
+            <div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="name" class="form-label">Telefones</label>
+                    <div class="form-line">
+                        <input id="Telefone1" type="number" name="Telefone1" ng-model="vm.cliente.telefone.celular" required maxlength="11" minlength="2" class="validate form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group form-float">
+                    <label for="value" class="form-label">Tel. Residencial</label>
+                    <div class="form-line">
+                        <input id="Telefone2" type="number" name="Telefone2" ng-model="vm.cliente.telefone.residencial" required maxlength="11" minlength="2" class="validate form-control">
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" ng-click="vm.cancel()">
+            @L("Cancel")
+        </button>
+        <button type="submit" class="btn btn-primary waves-effect" ng-click="vm.save()" ng-disabled="clienteEditForm.$invalid">
+            @L("Save")
+        </button>
+    </div>
+</form>
+

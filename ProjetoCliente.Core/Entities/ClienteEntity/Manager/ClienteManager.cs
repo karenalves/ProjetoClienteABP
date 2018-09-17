@@ -27,8 +27,8 @@ namespace ProjetoCliente.Entities.ClienteEntity.Manager
         }
 
         public async Task<List<Cliente>> GetAllCliente()
-        {
-            return await _clienteRepository.GetAllListAsync();
+        {            
+            return await Task.Run(() => _clienteRepository.GetAllIncluding(x => x.Documento).ToList());
         }
 
         public async Task<Cliente> GetByIdCliente(long id)
