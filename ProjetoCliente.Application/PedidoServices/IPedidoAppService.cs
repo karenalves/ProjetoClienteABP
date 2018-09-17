@@ -1,4 +1,5 @@
-﻿using ProjetoCliente.PedidoServices.Dtos;
+﻿using Abp.Application.Services;
+using ProjetoCliente.PedidoServices.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoCliente.PedidoServices
 {
-    public interface IPedidoServices
+    public interface IPedidoAppService : IApplicationService
     {
         Task<IdPedido> CreatePedido(CreatePedidoInput input);
 

@@ -182,20 +182,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClienteServices\ClienteServices.cs" />
+    <Compile Include="ClienteServices\ClienteAppService.cs" />
     <Compile Include="ClienteServices\Dtos\CreateClienteInput.cs" />
     <Compile Include="ClienteServices\Dtos\GetAllClientesOutput.cs" />
     <Compile Include="ClienteServices\Dtos\GetCliente.cs" />
     <Compile Include="ClienteServices\Dtos\IdCliente.cs" />
-    <Compile Include="ClienteServices\IClienteServices.cs" />
-    <Compile Include="DocumentoServices\DocumentoServices.cs" />
+    <Compile Include="ClienteServices\IClienteAppService.cs" />
+    <Compile Include="DocumentoServices\DocumentoAppService.cs" />
     <Compile Include="DocumentoServices\Dtos\CreateDocumentoInput.cs" />
     <Compile Include="DocumentoServices\Dtos\GetDocumento.cs" />
     <Compile Include="DocumentoServices\Dtos\IdDocumento.cs" />
-    <Compile Include="DocumentoServices\IDocumentoServices.cs" />
-    <Compile Include="PedidoServices\ClientePedido.cs" />
-    <Compile Include="PedidoServices\Dtos\ClientePedido.cs" />
-    <Compile Include="PedidoServices\IClientePedido.cs" />
+    <Compile Include="DocumentoServices\IDocumentoAppService.cs" />
+    <Compile Include="PedidoServices\Dtos\CreatePedidoInput.cs" />
+    <Compile Include="PedidoServices\Dtos\GetAllPedidoOutput.cs" />
+    <Compile Include="PedidoServices\Dtos\GetPedido.cs" />
+    <Compile Include="PedidoServices\Dtos\IdPedido.cs" />
+    <Compile Include="PedidoServices\IPedidoAppService.cs" />
+    <Compile Include="PedidoServices\PedidoAppService.cs" />
     <Compile Include="ProjetoClienteApplicationModule.cs" />
     <Compile Include="ProjetoClienteAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -203,8 +206,8 @@
     <Compile Include="TelefoneServices\Dtos\GetAllTelefone.cs" />
     <Compile Include="TelefoneServices\Dtos\GetTelefone.cs" />
     <Compile Include="TelefoneServices\Dtos\IdTelefone.cs" />
-    <Compile Include="TelefoneServices\ITelefoneServices.cs" />
-    <Compile Include="TelefoneServices\TelefoneServices.cs" />
+    <Compile Include="TelefoneServices\ITelefoneAppService.cs" />
+    <Compile Include="TelefoneServices\TelefoneAppService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

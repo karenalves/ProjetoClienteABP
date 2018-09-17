@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.Application.Services;
 using Abp.AutoMapper;
 using AutoMapper;
 using ProjetoCliente.Entities.TelefoneEntity;
@@ -11,10 +12,10 @@ using ProjetoCliente.TelefoneServices.Dtos;
 
 namespace ProjetoCliente.TelefoneServices
 {
-    public class TelefoneServices : ITelefoneServices
+    public class TelefoneAppService : ITelefoneAppService
     {
         public TelefoneManager _telefoneManager;
-        public TelefoneServices(TelefoneManager telefoneManager)
+        public TelefoneAppService(TelefoneManager telefoneManager)
         {
             this._telefoneManager = telefoneManager;
         }

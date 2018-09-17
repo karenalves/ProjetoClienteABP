@@ -28,6 +28,9 @@ namespace ProjetoCliente
                 config.CreateMap<CreatePedidoInput, Pedido>()
                 .ConstructUsing(x => new Pedido(x.NomeProduto, x.PrazoEntrega));
 
+                config.CreateMap<GetPedido, Pedido>()
+                .ConstructUsing(x => new Pedido(x.NomeProduto, x.PrazoEntrega));
+
                 config.CreateMap<CreateTelefoneInput, Telefone>()
                 .ConstructUsing(x => new Telefone(x.NumeroTelefone, x.TipoTelefone, x.ClienteId));
             });

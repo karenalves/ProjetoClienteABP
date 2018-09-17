@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.Application.Services;
 using Abp.AutoMapper;
 using AutoMapper;
 using ProjetoCliente.ClienteServices.Dtos;
@@ -11,10 +12,10 @@ using ProjetoCliente.Entities.ClienteEntity.Manager;
 
 namespace ProjetoCliente.ClienteServices
 {
-    public class ClienteServices : IClienteServices
+    public class ClienteAppService : ApplicationService, IClienteAppService
     {
         public ClienteManager _clienteManager;
-        public ClienteServices(ClienteManager clienteManager)
+        public ClienteAppService(ClienteManager clienteManager)
         {
             this._clienteManager = clienteManager;
         }

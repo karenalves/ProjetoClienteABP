@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.Application.Services;
 using Abp.AutoMapper;
 using AutoMapper;
 using ProjetoCliente.DocumentoServices.Dtos;
@@ -11,10 +12,10 @@ using ProjetoCliente.Entities.DocumentoEntity.Manager;
 
 namespace ProjetoCliente.DocumentoServices
 {
-    public class DocumentoServices : IDocumentoServices
+    public class DocumentoAppService : ApplicationService, IDocumentoAppService
     {
         public DocumentoManager _documentoManager;
-        public DocumentoServices(DocumentoManager documentoManager)
+        public DocumentoAppService(DocumentoManager documentoManager)
         {
             this._documentoManager = documentoManager;
         }

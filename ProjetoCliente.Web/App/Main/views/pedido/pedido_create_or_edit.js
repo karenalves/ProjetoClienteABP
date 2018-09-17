@@ -9,7 +9,7 @@
         [
             '$scope',
             '$uibModalInstance',
-            'abp.services.app.product',
+            'abp.services.app.pedido',
             'id',
             'isEditing'
         ];
@@ -52,7 +52,7 @@
 
         function update() {
             abp.ui.setBusy();
-            pedidoService.UpdatePedido(vm.pedido)
+            pedidoService.updatePedido(vm.pedido)
                 .then(success)
                 .catch(unblockByError);
         }

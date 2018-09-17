@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoCliente.TelefoneServices
 {
-    public interface ITelefoneServices : IApplicationService
+    public interface ITelefoneAppService : IApplicationService
     {
         Task<IdTelefone> CreateTelefone(CreateTelefoneInput input);
 

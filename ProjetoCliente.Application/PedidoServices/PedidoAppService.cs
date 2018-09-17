@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.Application.Services;
 using Abp.AutoMapper;
 using AutoMapper;
 using ProjetoCliente.Entities.PedidoEntity;
@@ -11,10 +12,10 @@ using ProjetoCliente.PedidoServices.Dtos;
 
 namespace ProjetoCliente.PedidoServices
 {
-    public class PedidoServices : IPedidoServices
+    public class PedidoAppService : ApplicationService, IPedidoAppService
     {
         public PedidoManager _pedidoManager;
-        public PedidoServices(PedidoManager pedidoManager)
+        public PedidoAppService(PedidoManager pedidoManager)
         {
             this._pedidoManager = pedidoManager;
         }
@@ -34,6 +35,14 @@ namespace ProjetoCliente.PedidoServices
         public async Task DeletePedido(long id)
         {
             await _pedidoManager.DeletePedido(id);
+        }
+
+        public async Task<GetAllPedidoOutput> GetAllPedido()
+        {
+            return new GetAllPedidoOutput
+            {
+                Pedidos = Mapper.Map<List<GetPedido>>(await _pedidoManager.GetAllPedido())
+        };
         }
 
         public async Task<GetPedido> GetByIdPedido(long id)

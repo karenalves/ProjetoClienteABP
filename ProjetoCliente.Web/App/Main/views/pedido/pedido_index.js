@@ -13,7 +13,7 @@
             '$timeout'
         ];
 
-    function PedidoController($uibModal, productService, $state, $timeout) {
+    function PedidoController($uibModal, pedidoService, $state, $timeout) {
         var vm     = this;
         vm.create  = create;
         vm.edit    = edit;
@@ -34,7 +34,7 @@
         }
 
         function getPedidos() {
-            productService.getAllPedido({})
+            pedidoService.getAllPedido({})
                 .then(fillPedidos, errorMessage)
                 .catch(unblockByError);
 
@@ -96,7 +96,7 @@
         function Delete(pedido) {
             swal({
                 title: "Remover Pedido",
-                text: "Você deseja remover o pedido '" + pedido.name + "'?",
+                text: "Você deseja remover o pedido '" + pedido.nomeProduto + "'?",
                 type: "warning",
                 showCancelButton: true,
                 confirmButtonColor: "#DD6B55",
@@ -104,7 +104,7 @@
                 closeOnConfirm: false,
                 html: false
             }, function () {
-                productService.deletePedido(pedido.id)
+                pedidoService.deletePedido(pedido.id)
                     .then(deletedMessage, errorMessage);
                 function deletedMessage() {
                     swal("Deletado!",

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoCliente.ClienteServices
 {
-    public interface IClienteServices : IApplicationService
+    public interface IClienteAppService : IApplicationService
     {
         Task<IdCliente> CreateCliente(CreateClienteInput input);
 

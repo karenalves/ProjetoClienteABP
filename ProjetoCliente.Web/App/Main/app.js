@@ -30,6 +30,11 @@
                     url: '/about',
                     templateUrl: '/App/Main/views/about/about.cshtml',
                     menu: 'About' //Matches to name of 'About' menu in ProjetoClienteNavigationProvider
+                })
+                .state('pedido', {
+                    url: '/pedido',
+                    templateUrl: '/App/Main/views/pedido/pedido_index.cshtml',
+                    menu: 'Pedido' //Matches to name of 'About' menu in ProjetoClienteNavigationProvider
                 });
         }
     ]);

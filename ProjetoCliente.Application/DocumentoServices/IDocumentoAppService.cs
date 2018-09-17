@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoCliente.DocumentoServices
 {
-    public interface IDocumentoServices : IApplicationService
+    public interface IDocumentoAppService : IApplicationService
     {
         Task<IdDocumento> CreateDocumento(CreateDocumentoInput input);
 
