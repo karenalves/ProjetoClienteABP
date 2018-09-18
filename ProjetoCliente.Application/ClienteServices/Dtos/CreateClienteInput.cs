@@ -15,7 +15,7 @@ namespace ProjetoCliente.ClienteServices.Dtos
 
         public string Status { get; set; }
 
-        public int DocumentoId { get; set; }
+        public long DocumentoId { get; set; }
         public Documento Documento { get; set; }
 
         public List<Telefone> Telefones { get; set; }

@@ -2308,3 +2308,1084 @@ Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! S
 WARN  2018-09-18 11:37:36,843 [9    ] nHandling.AbpApiExceptionFilterAttribute - There are 2 validation errors:
 WARN  2018-09-18 11:37:36,843 [9    ] nHandling.AbpApiExceptionFilterAttribute -  (input.telefones[0].numeroTelefone)
 WARN  2018-09-18 11:37:36,843 [9    ] nHandling.AbpApiExceptionFilterAttribute -  (input.telefones[1].numeroTelefone)
+DEBUG 2018-09-18 11:47:35,788 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-18 11:47:35,801 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-18 11:47:35,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:35,815 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-18 11:47:36,236 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 11:47:40,537 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-18 11:47:40,638 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-18 11:47:40,660 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-18 11:47:40,695 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-18 11:47:40,898 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-18 11:47:41,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-18 11:47:41,265 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-18 11:47:41,266 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-18 11:47:41,267 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-18 11:47:41,268 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-18 11:47:47,967 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:47:47,969 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:47:48,044 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 11:47:48,106 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 11:48:04,899 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:48:04,899 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:48:04,899 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:48:23,389 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:48:23,389 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:48:24,780 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:48:24,780 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:48:24,780 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:49:09,000 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:49:09,001 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:49:10,139 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:49:10,139 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:49:10,139 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:52:08,852 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:52:08,852 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:52:11,689 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:52:11,689 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 11:52:11,689 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 12:06:26,825 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 12:06:26,825 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+ERROR 2018-09-18 12:06:28,382 [23   ] nHandling.AbpApiExceptionFilterAttribute - There is no such an entity. Entity type: ProjetoCliente.Entities.PedidoEntity.Pedido, id: 1
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: ProjetoCliente.Entities.PedidoEntity.Pedido, id: 1
+   em Abp.Domain.Repositories.AbpRepositoryBase`2.<GetAsync>d__21.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.Entities.PedidoEntity.Manager.PedidoManager.<GetByIdPedido>d__5.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Core\Entities\PedidoEntity\Manager\PedidoManager.cs:linha 36
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.PedidoServices.PedidoAppService.<GetByIdPedido>d__5.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\PedidoServices\PedidoAppService.cs:linha 50
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-18 12:06:28,382 [13   ] nHandling.AbpApiExceptionFilterAttribute - There is no such an entity. Entity type: ProjetoCliente.Entities.PedidoEntity.Pedido, id: 1
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: ProjetoCliente.Entities.PedidoEntity.Pedido, id: 1
+   em Abp.Domain.Repositories.AbpRepositoryBase`2.<GetAsync>d__21.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.Entities.PedidoEntity.Manager.PedidoManager.<GetByIdPedido>d__5.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Core\Entities\PedidoEntity\Manager\PedidoManager.cs:linha 36
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.PedidoServices.PedidoAppService.<GetByIdPedido>d__5.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\PedidoServices\PedidoAppService.cs:linha 50
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-18 12:06:36,013 [19   ] nHandling.AbpApiExceptionFilterAttribute - There is no such an entity. Entity type: ProjetoCliente.Entities.PedidoEntity.Pedido, id: 1
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: ProjetoCliente.Entities.PedidoEntity.Pedido, id: 1
+   em Abp.Domain.Repositories.AbpRepositoryBase`2.<GetAsync>d__21.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.Entities.PedidoEntity.Manager.PedidoManager.<GetByIdPedido>d__5.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Core\Entities\PedidoEntity\Manager\PedidoManager.cs:linha 36
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.PedidoServices.PedidoAppService.<GetByIdPedido>d__5.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\PedidoServices\PedidoAppService.cs:linha 50
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+WARN  2018-09-18 12:14:47,085 [32   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 12:14:47,085 [32   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 12:14:48,735 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 12:14:48,735 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 12:14:48,735 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 12:15:20,340 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 12:15:20,340 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+DEBUG 2018-09-18 15:33:25,384 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-18 15:33:25,435 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-18 15:33:25,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:25,452 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-18 15:33:26,276 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 15:33:32,193 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-18 15:33:32,346 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-18 15:33:32,375 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-18 15:33:32,514 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-18 15:33:32,936 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-18 15:33:33,092 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-18 15:33:33,712 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-18 15:33:33,716 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-18 15:33:33,718 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-18 15:33:33,720 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-18 15:33:48,493 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 15:33:48,495 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 15:33:49,034 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 15:33:49,180 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 15:34:02,079 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 15:34:02,079 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 15:34:02,079 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 15:34:15,357 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 15:34:15,357 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+ERROR 2018-09-18 15:48:56,066 [38   ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , GetCliente , Cliente , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em ProjetoCliente.ClienteServices.ClienteAppService.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 55
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-18 15:50:37,595 [43   ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , GetCliente , Cliente , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em ProjetoCliente.ClienteServices.ClienteAppService.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 55
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-18 15:52:54,672 [43   ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , GetCliente , Cliente , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em ProjetoCliente.ClienteServices.ClienteAppService.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 55
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-18 15:53:43,911 [34   ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , GetCliente , Cliente , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em ProjetoCliente.ClienteServices.ClienteAppService.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 55
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+DEBUG 2018-09-18 16:08:34,973 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-18 16:08:36,477 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-18 16:08:36,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,486 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,487 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,487 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,487 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:36,496 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-18 16:08:39,869 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:08:40,536 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-18 16:08:40,601 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-18 16:08:40,616 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-18 16:08:40,861 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-18 16:08:41,708 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-18 16:08:41,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-18 16:08:42,305 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-18 16:08:42,307 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-18 16:08:42,308 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-18 16:08:42,309 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-18 16:08:57,857 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:08:57,859 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:08:57,997 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 16:08:58,065 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 16:10:03,311 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:10:03,311 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:10:03,311 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:10:22,252 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:10:22,252 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+ERROR 2018-09-18 16:11:21,294 [20   ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , GetCliente , Cliente , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em ProjetoCliente.ClienteServices.ClienteAppService.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 55
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-18 16:12:08,126 [7    ] nHandling.AbpApiExceptionFilterAttribute - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+GetCliente -> Cliente (Destination member list)
+ProjetoCliente.ClienteServices.Dtos.GetCliente -> ProjetoCliente.Entities.ClienteEntity.Cliente (Destination member list)
+
+Unmapped properties:
+Pedidos
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+   em AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   em AutoMapper.MapperConfiguration.AssertConfigurationIsValid(TypeMap typeMap)
+   em lambda_method(Closure , GetCliente , Cliente , ResolutionContext )
+   em lambda_method(Closure , Object , Object , ResolutionContext )
+   em AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   em AutoMapper.Mapper.Map[TDestination](Object source)
+   em Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   em ProjetoCliente.ClienteServices.ClienteAppService.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 55
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+DEBUG 2018-09-18 16:20:34,532 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-18 16:20:34,557 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-18 16:20:34,563 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:34,570 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-18 16:20:34,954 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:20:38,298 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-18 16:20:38,366 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-18 16:20:38,376 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-18 16:20:38,401 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-18 16:20:38,589 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-18 16:20:38,669 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-18 16:20:38,979 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-18 16:20:38,980 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-18 16:20:38,981 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-18 16:20:38,982 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-18 16:20:48,859 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:20:48,860 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:20:48,897 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 16:20:48,939 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 16:20:58,709 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:20:58,709 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:20:58,709 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:21:05,769 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:21:05,770 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!
+ERROR 2018-09-18 16:21:30,355 [7    ] nHandling.AbpApiExceptionFilterAttribute - A referential integrity constraint violation occurred: The property value(s) of 'Cliente.Id' on one end of a relationship do not match the property value(s) of 'Telefone.ClienteId' on the other end.
+System.InvalidOperationException: A referential integrity constraint violation occurred: The property value(s) of 'Cliente.Id' on one end of a relationship do not match the property value(s) of 'Telefone.ClienteId' on the other end.
+   em System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   em System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   em System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   em System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   em System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   em System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   em System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   em System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   em Abp.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity)
+   em Abp.EntityFramework.Repositories.EfRepositoryBase`3.UpdateAsync(TEntity entity)
+   em Castle.Proxies.Invocations.IRepository`2_UpdateAsync.InvokeMethodOnTarget()
+   em Castle.DynamicProxy.AbstractInvocation.Proceed()
+   em Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   em Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   em Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   em Castle.DynamicProxy.AbstractInvocation.Proceed()
+   em Castle.Proxies.IRepository`2Proxy.UpdateAsync(Cliente entity)
+   em ProjetoCliente.Entities.ClienteEntity.Manager.ClienteManager.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Core\Entities\ClienteEntity\Manager\ClienteManager.cs:linha 49
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.ClienteServices.ClienteAppService.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 56
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-18 16:22:48,535 [12   ] nHandling.AbpApiExceptionFilterAttribute - A referential integrity constraint violation occurred: The property value(s) of 'Cliente.Id' on one end of a relationship do not match the property value(s) of 'Telefone.ClienteId' on the other end.
+System.InvalidOperationException: A referential integrity constraint violation occurred: The property value(s) of 'Cliente.Id' on one end of a relationship do not match the property value(s) of 'Telefone.ClienteId' on the other end.
+   em System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   em System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   em System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   em System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   em System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   em System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   em System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   em System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   em Abp.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity)
+   em Abp.EntityFramework.Repositories.EfRepositoryBase`3.UpdateAsync(TEntity entity)
+   em Castle.Proxies.Invocations.IRepository`2_UpdateAsync.InvokeMethodOnTarget()
+   em Castle.DynamicProxy.AbstractInvocation.Proceed()
+   em Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   em Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   em Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   em Castle.DynamicProxy.AbstractInvocation.Proceed()
+   em Castle.Proxies.IRepository`2Proxy.UpdateAsync(Cliente entity)
+   em ProjetoCliente.Entities.ClienteEntity.Manager.ClienteManager.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Core\Entities\ClienteEntity\Manager\ClienteManager.cs:linha 49
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.ClienteServices.ClienteAppService.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 56
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-09-18 16:23:58,676 [12   ] nHandling.AbpApiExceptionFilterAttribute - A referential integrity constraint violation occurred: The property value(s) of 'Cliente.Id' on one end of a relationship do not match the property value(s) of 'Telefone.ClienteId' on the other end.
+System.InvalidOperationException: A referential integrity constraint violation occurred: The property value(s) of 'Cliente.Id' on one end of a relationship do not match the property value(s) of 'Telefone.ClienteId' on the other end.
+   em System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   em System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   em System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   em System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   em System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   em System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   em System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   em System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   em Abp.EntityFramework.Repositories.EfRepositoryBase`3.AttachIfNot(TEntity entity)
+   em Abp.EntityFramework.Repositories.EfRepositoryBase`3.UpdateAsync(TEntity entity)
+   em Castle.Proxies.Invocations.IRepository`2_UpdateAsync.InvokeMethodOnTarget()
+   em Castle.DynamicProxy.AbstractInvocation.Proceed()
+   em Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   em Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   em Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   em Castle.DynamicProxy.AbstractInvocation.Proceed()
+   em Castle.Proxies.IRepository`2Proxy.UpdateAsync(Cliente entity)
+   em ProjetoCliente.Entities.ClienteEntity.Manager.ClienteManager.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Core\Entities\ClienteEntity\Manager\ClienteManager.cs:linha 49
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   em ProjetoCliente.ClienteServices.ClienteAppService.<UpdateCliente>d__6.MoveNext() na C:\Users\soitic\Desktop\soitic\ProjetoClienteABP\ProjetoCliente.Application\ClienteServices\ClienteAppService.cs:linha 56
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+DEBUG 2018-09-18 16:34:52,509 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-18 16:34:52,558 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2018-09-18 16:34:52,564 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.Web.ProjetoClienteWebModule, ProjetoCliente.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteDataModule, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteCoreModule, ProjetoCliente.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteApplicationModule, ProjetoCliente.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ProjetoCliente.ProjetoClienteWebApiModule, ProjetoCliente.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:52,571 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2018-09-18 16:34:53,110 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ProjetoCliente.EntityFramework.ProjetoClienteDbContext, ProjetoCliente.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-18 16:34:58,465 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-09-18 16:34:58,556 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-18 16:34:58,565 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-18 16:34:58,575 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ProjetoCliente
+DEBUG 2018-09-18 16:34:58,774 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-18 16:34:58,875 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2018-09-18 16:34:59,165 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.TelefoneServices.ITelefoneAppService' with service name 'app/telefone'.
+DEBUG 2018-09-18 16:34:59,167 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.PedidoServices.IPedidoAppService' with service name 'app/pedido'.
+DEBUG 2018-09-18 16:34:59,168 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.DocumentoServices.IDocumentoAppService' with service name 'app/documento'.
+DEBUG 2018-09-18 16:34:59,169 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ProjetoCliente.ClienteServices.IClienteAppService' with service name 'app/cliente'.
+WARN  2018-09-18 16:35:06,697 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pedido' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:35:06,698 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cliente' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:35:06,755 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 16:35:06,814 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-09-18 16:35:15,796 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:35:15,796 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:35:15,796 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'New' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:35:34,446 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'ProjetoCliente'!
+WARN  2018-09-18 16:35:34,446 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'ProjetoCliente'!

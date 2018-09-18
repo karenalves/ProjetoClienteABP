@@ -15,6 +15,7 @@
                             <th>Status</th>
                             <th>Tipo de Doc.</th>
                             <th>Nº Doc.</th>
+                            <th>Tel. Celular</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -23,6 +24,7 @@
                             <td class="td--2">{{cliente.status}}</td>
                             <td class="td--2">{{cliente.documento.tipoDocumento}} </td>
                             <td class="td--2">{{cliente.documento.numeroDocumento}} </td>
+                            <td class="td--2">{{cliente.telefones[0].numeroTelefone}} </td>
 
                             <td class="td--4">
                                 <div class="pull-right">

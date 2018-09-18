@@ -57,6 +57,9 @@
 
         function update() {
             abp.ui.setBusy();
+            vm.cliente.telefones[0].tipoTelefone = "Celular";
+            vm.cliente.telefones[1].tipoTelefone = "Residencial";
+            
             clienteService.updateCliente(vm.cliente)
                 .then(success)
                 .catch(unblockByError);

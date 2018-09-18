@@ -23,7 +23,7 @@ namespace ProjetoCliente.Entities.TelefoneEntity
             this.CreationTime = DateTime.Now;
         }
 
-        public Telefone(int tel, string tipoTel, int idCliente)
+        public Telefone(int tel, string tipoTel, long idCliente)
         {
             this.CreationTime = DateTime.Now;
             this.NumeroTelefone = tel;

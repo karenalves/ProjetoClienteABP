@@ -6,12 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace ProjetoCliente.Entities.ClienteEntity.Manager
 {
     public class ClienteManager : IClienteManager, IDomainService
     {
         private IRepository<Cliente, long> _clienteRepository;
-
+    
         public ClienteManager(IRepository<Cliente, long> clienteRepository)
         {
             _clienteRepository = clienteRepository;
@@ -28,12 +29,12 @@ namespace ProjetoCliente.Entities.ClienteEntity.Manager
 
         public async Task<List<Cliente>> GetAllCliente()
         {            
-            return await Task.Run(() => _clienteRepository.GetAllIncluding(x => x.Documento).ToList());
+            return await Task.Run(() => _clienteRepository.GetAllIncluding(x => x.Documento,y=> y.Telefones).ToList());
         }
 
         public async Task<Cliente> GetByIdCliente(long id)
         {
-            return await _clienteRepository.GetAsync(id); 
+           return await Task.Run(() => _clienteRepository.GetAllIncluding(x => x.Documento, y => y.Telefones).Where(x => x.Id == id).FirstOrDefault());
         }
 
         public async Task<Cliente> UpdateCliente(Cliente cliente)

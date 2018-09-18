@@ -22,6 +22,9 @@ namespace ProjetoCliente
                 config.CreateMap<CreateClienteInput, Cliente>()
                 .ConstructUsing(x => new Cliente(x.Name, x.Status, x.Documento, x.Telefones));
 
+                config.CreateMap<GetCliente, Cliente>()
+                .ConstructUsing(x => new Cliente(x.Name, x.Status, x.Documento, x.Telefones));
+
                 config.CreateMap<CreateDocumentoInput, Documento>()
                 .ConstructUsing(x => new Documento(x.TipoDocumento, x.NumeroDocumento));
 
