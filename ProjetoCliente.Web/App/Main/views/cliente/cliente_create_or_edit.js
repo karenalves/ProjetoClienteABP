@@ -21,7 +21,9 @@
         vm.cancel = cancel;
 
         vm.isEditing = isEditing;
-        vm.cliente = {};
+        vm.cliente = {
+            telefones: [{ numeroTelefone: "", tipoTelefone: "Celular" }, { numeroTelefone: "", tipoTelefone: "Residencial"}]
+        };
 
         activate();
 
@@ -45,6 +47,9 @@
 
         function create() {
             abp.ui.setBusy();
+
+            //console.log(vm.cliente);
+
             clienteService.createCliente(vm.cliente)
                 .then(success)
                 .catch(unblockByError);

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Abp.Application.Services;
 using Abp.AutoMapper;
+using Abp.Runtime.Validation;
 using AutoMapper;
 using ProjetoCliente.ClienteServices.Dtos;
 using ProjetoCliente.Entities.ClienteEntity;
@@ -12,6 +13,7 @@ using ProjetoCliente.Entities.ClienteEntity.Manager;
 
 namespace ProjetoCliente.ClienteServices
 {
+    [DisableValidation]
     public class ClienteAppService : ApplicationService, IClienteAppService
     {
         public ClienteManager _clienteManager;

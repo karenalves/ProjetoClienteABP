@@ -14,7 +14,7 @@ namespace ProjetoCliente.Entities.TelefoneEntity
 
         public string TipoTelefone { get; set; }
 
-        public int ClienteId { get; set; }
+        public long ClienteId { get; set; }
 
         public Cliente Cliente;
 

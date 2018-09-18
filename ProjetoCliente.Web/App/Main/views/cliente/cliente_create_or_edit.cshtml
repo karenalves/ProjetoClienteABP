@@ -13,7 +13,7 @@
                 <div class="form-group form-float">
                     <label for="name" class="form-label">Nome</label>
                     <div class="form-line">
-                        <input id="Name" type="text" name="Name" ng-model="vm.cliente.name" required maxlength="32" minlength="2" class="validate form-control">
+                        <input id="Name" type="text" name="Name" ng-model="vm.cliente.name" class="validate form-control">
                     </div>
                 </div>
             </div>
@@ -21,13 +21,17 @@
                 <div class="form-group form-float">
                     <label for="value" class="form-label">Status</label>
                     <div class="form-line">
-                        <input type="radio" name="status" ng-model="vm.cliente.status" value="ativo" ng-checked="true">Ativo
-                        <input type="radio" name="status"ng-model="vm.cliente.status" value="inativo">Inativo
+                        @*<input type="radio" name="status1" ng-model="vm.cliente.status" value="ativo" ng-checked="true">Ativo
+        <input type="radio" name="status2" ng-model="vm.cliente.status1" value="inativo">Inativo*@
+                        <input type="radio" name="nome_do_grupo1" ng-model="vm.cliente.status" value="Ativo" /> Ativo
+                        <input type="radio" name="nome_do_grupo2" ng-model="vm.cliente.status" value="Inativo" /> Inativo
                     </div>
                 </div>
             </div>
         </div>
         <br />
+        <h4>Documentos</h4>
+        <hr />
         <div class="row clearfix">
             <div class="col-sm-6">
                 <div class="form-group form-float">
@@ -41,22 +45,24 @@
                     </div>
                 </div>
             </div>
-            @*<div class="col-sm-6">
+            <div class="col-sm-6">
                 <div class="form-group form-float">
                     <label for="value" class="form-label">Nº Documento</label>
                     <div class="form-line">
-                        <input id="NumeroDocumento" type="number" name="NumeroDocumento" ng-model="vm.cliente.documento.numeroDocumento" required maxlength="11" minlength="2" class="validate form-control">
+                        <input id="NumeroDocumento" type="number" name="NumeroDocumento" ng-model="vm.cliente.documento.numeroDocumento"  class="validate form-control">
                     </div>
                 </div>
-            </div>*@
+            </div>
         </div>
         <br />
-        <!--<div class="row clearfix">
+        <h4>Contatos</h4>
+        <hr />
+        <div class="row clearfix">
             <div class="col-sm-6">
                 <div class="form-group form-float">
-                    <label for="name" class="form-label">Telefones</label>
+                    <label for="name" class="form-label">Tel. Celular</label>
                     <div class="form-line">
-                        <input id="Telefone1" type="number" name="Telefone1" ng-model="vm.cliente.telefone.celular" required maxlength="11" minlength="2" class="validate form-control">
+                        <input id="Telefone1" type="number" name="Telefone1" ng-model="vm.cliente.telefones[0].numeroTelefone"  class="form-control">
                     </div>
                 </div>
             </div>
@@ -64,11 +70,11 @@
                 <div class="form-group form-float">
                     <label for="value" class="form-label">Tel. Residencial</label>
                     <div class="form-line">
-                        <input id="Telefone2" type="number" name="Telefone2" ng-model="vm.cliente.telefone.residencial" required maxlength="11" minlength="2" class="validate form-control">
+                        <input id="Telefone2" type="number" name="Telefone2" ng-model="vm.cliente.telefones[1].numeroTelefone"  class="form-control">
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
 
     </div>
     <div class="modal-footer">

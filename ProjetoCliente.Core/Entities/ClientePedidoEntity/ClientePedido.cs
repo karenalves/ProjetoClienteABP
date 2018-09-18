@@ -8,11 +8,11 @@ namespace ProjetoCliente.Entities.ClientePedidoEntity
 {
     public class ClientePedido
     {
-        public int ClienteId { get; set; }
+        public long ClienteId { get; set; }
 
-        public int PedidoId { get; set; }
+        public long PedidoId { get; set; }
 
-        public ClientePedido(int ClienteId, int PedidoId)
+        public ClientePedido(long ClienteId, long PedidoId)
         {
             this.ClienteId = ClienteId;
             this.PedidoId  = PedidoId;

@@ -201,6 +201,10 @@
     <Compile Include="Migrations\201809172023170_alter_cliente.Designer.cs">
       <DependentUpon>201809172023170_alter_cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809181401495_ater_tipos.cs" />
+    <Compile Include="Migrations\201809181401495_ater_tipos.Designer.cs">
+      <DependentUpon>201809181401495_ater_tipos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ProjetoClienteDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -221,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809172023170_alter_cliente.resx">
       <DependentUpon>201809172023170_alter_cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809181401495_ater_tipos.resx">
+      <DependentUpon>201809181401495_ater_tipos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

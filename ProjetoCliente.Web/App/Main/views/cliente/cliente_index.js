@@ -75,8 +75,8 @@
 
         function edit(cliente) {
             var modalInstance = $uibModal.open({
-                templateUrl: '/App/Main/views/pedido/pedido_create_or_edit.cshtml',
-                controller: 'app.views.pedido.pedido_create_or_edit as vm',
+                templateUrl: '/App/Main/views/cliente/cliente_create_or_edit.cshtml',
+                controller: 'app.views.cliente.cliente_create_or_edit as vm',
                 backdrop: 'static',
                 resolve: {
                     id: function () {
