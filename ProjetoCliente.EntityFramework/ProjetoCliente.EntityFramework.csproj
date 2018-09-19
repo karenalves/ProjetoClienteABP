@@ -192,6 +192,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityFramework\ProjetoClienteDbContext.cs" />
+    <Compile Include="EntityFramework\Repositories\ClienteRepository.cs" />
     <Compile Include="EntityFramework\Repositories\ProjetoClienteRepositoryBase.cs" />
     <Compile Include="Migrations\201809141432044_add_inicial.cs" />
     <Compile Include="Migrations\201809141432044_add_inicial.Designer.cs">

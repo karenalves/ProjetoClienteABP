@@ -10,7 +10,6 @@ namespace ProjetoCliente.EntityFramework
 {
     public class ProjetoClienteDbContext : AbpDbContext
     {
-
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Cliente>()

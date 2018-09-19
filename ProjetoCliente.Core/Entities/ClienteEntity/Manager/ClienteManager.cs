@@ -1,5 +1,9 @@
 ﻿using Abp.Domain.Repositories;
 using Abp.Domain.Services;
+using ProjetoCliente.Entities.DocumentoEntity;
+using ProjetoCliente.Entities.DocumentoEntity.Manager;
+using ProjetoCliente.Entities.TelefoneEntity;
+using ProjetoCliente.Entities.TelefoneEntity.Manager;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +15,9 @@ namespace ProjetoCliente.Entities.ClienteEntity.Manager
 {
     public class ClienteManager : IClienteManager, IDomainService
     {
-        private IRepository<Cliente, long> _clienteRepository;
-    
-        public ClienteManager(IRepository<Cliente, long> clienteRepository)
+        private IClienteRepository _clienteRepository;
+
+        public ClienteManager(IClienteRepository clienteRepository)
         {
             _clienteRepository = clienteRepository;
         }
@@ -39,7 +43,7 @@ namespace ProjetoCliente.Entities.ClienteEntity.Manager
 
         public async Task<Cliente> UpdateCliente(Cliente cliente)
         {
-            return await _clienteRepository.UpdateAsync(cliente);
+             return await _clienteRepository.UpdateAsync(cliente);
         }
     }
 }

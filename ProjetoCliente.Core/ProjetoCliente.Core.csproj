@@ -179,6 +179,7 @@
     <Compile Include="Entities\ClienteEntity\Cliente.cs" />
     <Compile Include="Entities\ClienteEntity\Manager\ClienteManager.cs" />
     <Compile Include="Entities\ClienteEntity\Manager\IClienteManager.cs" />
+    <Compile Include="Entities\ClienteEntity\Manager\IClienteRepository.cs" />
     <Compile Include="Entities\ClientePedidoEntity\ClientePedido.cs" />
     <Compile Include="Entities\ClientePedidoEntity\Manager\ClientePedidoManager.cs" />
     <Compile Include="Entities\ClientePedidoEntity\Manager\IClientePedidoManager.cs" />

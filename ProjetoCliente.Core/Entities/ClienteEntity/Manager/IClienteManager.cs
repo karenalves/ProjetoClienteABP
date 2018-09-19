@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoCliente.Entities.ClienteEntity.Manager
 {
-    public interface IClienteManager 
+    public interface IClienteManager
     {
         Task<long> CreateCliente(Cliente cliente);
         Task<Cliente> UpdateCliente(Cliente cliente);
