@@ -1,0 +1,24 @@
+﻿<div class="row" ng-controller="app.views.cliente.clientepedido_index as vm">
+    <h4>Cliente</h4>
+    <hr />
+    <div class="row">
+        <select ng-model="cliente">
+            <option ng-repeat="x in vm.clientes" value="{{x.id}}">{{x.name}}</option>
+        </select>
+    </div>
+    <br />
+    <h4>Pedido</h4>
+    <hr />
+    <div class="row">
+        <select ng-model="pedido">
+            <option ng-repeat="y in vm.pedidos" value="{{y.id}}">{{y.nomeProduto}}</option>
+        </select>
+    </div>
+    <br/>
+    <div class="row">
+        <button type="submit" class="btn btn-primary waves-effect" ng-click="vm.save(cliente,pedido)">
+            @L("Save")
+        </button>
+    </div>
+</div>
+ 

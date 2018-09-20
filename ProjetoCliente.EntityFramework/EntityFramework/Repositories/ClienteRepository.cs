@@ -1,6 +1,7 @@
 ﻿using Abp.EntityFramework;
 using ProjetoCliente.Entities.ClienteEntity;
 using ProjetoCliente.Entities.ClienteEntity.Manager;
+using ProjetoCliente.Entities.PedidoEntity;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -30,6 +31,11 @@ namespace ProjetoCliente.EntityFramework.Repositories
             await Context.SaveChangesAsync();
 
             return cliente;
+        }
+        public async Task Add(Cliente cliente, Pedido pedido)
+        {
+            cliente.Pedidos.Add(pedido);
+            await Context.SaveChangesAsync();            
         }
     }
 }

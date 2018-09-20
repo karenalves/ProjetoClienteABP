@@ -31,6 +31,7 @@ namespace ProjetoCliente.EntityFramework
         public virtual IDbSet<Cliente> Clientes { get; set; }
 
         public virtual IDbSet<Telefone> Telefones { get; set; }
+        public object Cliente { get; internal set; }
 
 
 

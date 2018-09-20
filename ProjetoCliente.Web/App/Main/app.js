@@ -39,6 +39,10 @@
                     url: '/cliente',
                     templateUrl: '/App/Main/views/cliente/cliente_index.cshtml',
                     menu: 'Cliente' //Matches to name of 'About' menu in ProjetoClienteNavigationProvider
+                }).state('clientepedido', {
+                    url: '/clientepedido',
+                    templateUrl: '/App/Main/views/cliente/clientepedido_index.cshtml',
+                    menu: 'Cliente x Pedido' //Matches to name of 'About' menu in ProjetoClienteNavigationProvider
                 });
         }
     ]);

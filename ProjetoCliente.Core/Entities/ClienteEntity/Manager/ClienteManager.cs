@@ -1,7 +1,9 @@
 ﻿using Abp.Domain.Repositories;
 using Abp.Domain.Services;
+using ProjetoCliente.Entities.ClientePedidoEntity;
 using ProjetoCliente.Entities.DocumentoEntity;
 using ProjetoCliente.Entities.DocumentoEntity.Manager;
+using ProjetoCliente.Entities.PedidoEntity;
 using ProjetoCliente.Entities.TelefoneEntity;
 using ProjetoCliente.Entities.TelefoneEntity.Manager;
 using System;
@@ -38,12 +40,19 @@ namespace ProjetoCliente.Entities.ClienteEntity.Manager
 
         public async Task<Cliente> GetByIdCliente(long id)
         {
-           return await Task.Run(() => _clienteRepository.GetAllIncluding(x => x.Documento, y => y.Telefones).Where(x => x.Id == id).FirstOrDefault());
+           return await Task.Run(() => _clienteRepository.GetAllIncluding(x => x.Documento, y => y.Telefones, z => z.Pedidos).Where(x => x.Id == id).FirstOrDefault());
         }
 
         public async Task<Cliente> UpdateCliente(Cliente cliente)
         {
              return await _clienteRepository.UpdateAsync(cliente);
+        }
+
+        public async Task VincularPedido(Cliente cliente, Pedido pedido)
+        {
+            //add instances to context
+          await _clienteRepository.Add(cliente,pedido);
+            
         }
     }
 }

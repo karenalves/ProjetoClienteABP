@@ -1,5 +1,6 @@
 ﻿using Abp.Application.Services;
 using ProjetoCliente.ClienteServices.Dtos;
+using ProjetoCliente.Entities.ClienteEntity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,5 +20,10 @@ namespace ProjetoCliente.ClienteServices
         Task<GetAllClientesOutput> GetAllCliente();
 
         Task DeleteCliente(long id);
+
+        Task VincularPedido(long clienteId, long pedidoId);
+
+
+
     }
 }

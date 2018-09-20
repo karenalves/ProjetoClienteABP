@@ -10,6 +10,9 @@ using AutoMapper;
 using ProjetoCliente.ClienteServices.Dtos;
 using ProjetoCliente.Entities.ClienteEntity;
 using ProjetoCliente.Entities.ClienteEntity.Manager;
+using ProjetoCliente.Entities.PedidoEntity;
+using ProjetoCliente.Entities.PedidoEntity.Manager;
+using ProjetoCliente.PedidoServices;
 
 namespace ProjetoCliente.ClienteServices
 {
@@ -17,9 +20,12 @@ namespace ProjetoCliente.ClienteServices
     public class ClienteAppService : ApplicationService, IClienteAppService
     {
         public ClienteManager _clienteManager;
-        public ClienteAppService(ClienteManager clienteManager)
+
+        public PedidoManager  servicePedido;
+        public ClienteAppService(ClienteManager clienteManager, PedidoManager pedido)
         {
             this._clienteManager = clienteManager;
+            this.servicePedido = pedido;
         }
         public async Task<IdCliente> CreateCliente(CreateClienteInput input)
         {
@@ -55,5 +61,14 @@ namespace ProjetoCliente.ClienteServices
             var cliente = input.MapTo<Cliente>();
             return Mapper.Map<GetCliente>(await _clienteManager.UpdateCliente(cliente));
         }
+
+        public async Task VincularPedido(long clienteId, long pedidoId)
+        {
+            var cliente = await _clienteManager.GetByIdCliente(clienteId);
+            var pedido = await servicePedido.GetByIdPedido(pedidoId);
+
+            await _clienteManager.VincularPedido(cliente, pedido);
+        }
+
     }
 }

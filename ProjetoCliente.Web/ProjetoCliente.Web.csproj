@@ -358,6 +358,7 @@
     <Content Include="App\Main\main.min.css">
       <DependentUpon>main.css</DependentUpon>
     </Content>
+    <Content Include="App\Main\views\cliente\clientepedido_index.js" />
     <Content Include="App\Main\views\cliente\cliente_create_or_edit.js" />
     <Content Include="App\Main\views\cliente\cliente_index.js" />
     <Content Include="App\Main\views\layout\header.js" />
@@ -1260,6 +1261,7 @@
     <Content Include="App\Main\views\pedido\pedido_create_or_edit.cshtml" />
     <Content Include="App\Main\views\cliente\cliente_index.cshtml" />
     <Content Include="App\Main\views\cliente\cliente_create_or_edit.cshtml" />
+    <Content Include="App\Main\views\cliente\clientepedido_index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
